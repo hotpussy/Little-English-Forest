@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+:root {
+  --forest-green: #2D6A4F;
+  --leaf-green: #52B788;
+  --mint: #95D5B2;
+  --sky: #ADE8F4;
+  --sun: #FFD166;
+  --berry: #FF6B6B;
+  --cream: #FFF8F0;
+  --bark: #6B4226;
+  --cloud: #F8FDFF;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--cream);
+  font-family: 'Nunito', 'Comic Sans MS', system-ui, sans-serif;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-8px); }
+}
+
+@keyframes sparkle {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.6; transform: scale(1.2); }
+}
+
+@keyframes grow {
+  from { transform: scaleY(0); transform-origin: bottom; }
+  to { transform: scaleY(1); transform-origin: bottom; }
+}
+
+.float { animation: float 3s ease-in-out infinite; }
+.sparkle { animation: sparkle 2s ease-in-out infinite; }

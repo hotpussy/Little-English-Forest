@@ -1,0 +1,13 @@
+{
+  "name": "Little English Forest",
+  "short_name": "英语森林",
+  "description": "让每一个孩子都拥有AI英语老师",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#e8f5e9",
+  "theme_color": "#2D6A4F",
+  "icons": [
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}
